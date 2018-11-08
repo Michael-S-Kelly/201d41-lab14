@@ -1,1 +1,69 @@
-/* TODO: Make it awesome */
+nav {
+    left: 200px;
+}
+
+li {
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+header {
+    color: yellow;
+    background-color: red;
+    font-size: 60px;
+    display: block;
+    text-align: center;
+}
+
+main {
+    color: red;
+    background: #466368;
+    background: -webkit-linear-gradient(#bde9df, #293f50);
+    background:    -moz-linear-gradient(#b48880, #293f50);
+    background:         linear-gradient(#b48880, #293f50);
+    position: relative;
+    height: 600px;
+}
+
+footer {
+    color: yellow;
+    background-color: red;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+}
+
+div > header > h1 {
+    color: red;
+    background-color: yellow;
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    top: 200px;
+}
+
+.copy > ol > li {
+    display: block;
+    color: black;
+}
+
+.copy {
+    position: relative;
+    right: 70%;
+    left: 30%;
+}
+fieldset {
+    position: relative;
+    top: 100px;
+    left: 10%;
+    right: 90%;
+    color: white;
+}
+label {
+    padding: 20px;
+}
+legend {
+    text-align: left;
+    font-size: 30px;
+}
