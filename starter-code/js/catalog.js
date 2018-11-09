@@ -23,6 +23,11 @@ function populateForm() {
 // object, save the whole thing back to local storage and update the screen
 // so that it shows the # of items in the cart and a quick preview of the cart itself.
 function handleSubmit(event) {
+  var formEl = document.getElementById('catalog');
+  var inputEl = document.getElementsByTagName('form > fieldset > input');
+  formEl.appendChild(inputEl);
+  inputEl.id = 'submit';
+  inpuyEl.addEventListener('submit', );
   event.preventdefault();
   // TODO: Prevent the page from reloading
 
